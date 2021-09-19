@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/osteos/static/css/main.b72cf1ec.chunk.css",
+    "main.js": "/osteos/static/js/main.47df7f8c.chunk.js",
+    "main.js.map": "/osteos/static/js/main.47df7f8c.chunk.js.map",
+    "runtime-main.js": "/osteos/static/js/runtime-main.93f889be.js",
+    "runtime-main.js.map": "/osteos/static/js/runtime-main.93f889be.js.map",
+    "static/css/2.d45d6843.chunk.css": "/osteos/static/css/2.d45d6843.chunk.css",
+    "static/js/2.c01ab1f4.chunk.js": "/osteos/static/js/2.c01ab1f4.chunk.js",
+    "static/js/2.c01ab1f4.chunk.js.map": "/osteos/static/js/2.c01ab1f4.chunk.js.map",
+    "index.html": "/osteos/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/osteos/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.b72cf1ec.chunk.css.map": "/osteos/static/css/main.b72cf1ec.chunk.css.map",
+    "static/js/2.c01ab1f4.chunk.js.LICENSE.txt": "/osteos/static/js/2.c01ab1f4.chunk.js.LICENSE.txt",
+    "static/media/A1.16e3b531.jpg": "/osteos/static/media/A1.16e3b531.jpg",
+    "static/media/A2.8f18b5ae.jpg": "/osteos/static/media/A2.8f18b5ae.jpg",
+    "static/media/A3.717bb57a.jpg": "/osteos/static/media/A3.717bb57a.jpg",
+    "static/media/A4.e5d873b2.jpg": "/osteos/static/media/A4.e5d873b2.jpg",
+    "static/media/Consulting1.93970345.jpg": "/osteos/static/media/Consulting1.93970345.jpg",
+    "static/media/Dr_ Bhavin.13586e57.jpg": "/osteos/static/media/Dr_ Bhavin.13586e57.jpg",
+    "static/media/Dr_Tunga.2835d417.jpg": "/osteos/static/media/Dr_Tunga.2835d417.jpg",
+    "static/media/Dr_mahantesh.808a3e79.jpg": "/osteos/static/media/Dr_mahantesh.808a3e79.jpg",
+    "static/media/F1.6284d37e.jpg": "/osteos/static/media/F1.6284d37e.jpg",
+    "static/media/F2.b078f85f.jpg": "/osteos/static/media/F2.b078f85f.jpg",
+    "static/media/aboutus1.b793ba09.jpg": "/osteos/static/media/aboutus1.b793ba09.jpg",
+    "static/media/asia.294c8839.png": "/osteos/static/media/asia.294c8839.png",
+    "static/media/contact.7565ca43.jpg": "/osteos/static/media/contact.7565ca43.jpg",
+    "static/media/dr_manjunath.f20f2656.png": "/osteos/static/media/dr_manjunath.f20f2656.png",
+    "static/media/h10.037e94f1.jpg": "/osteos/static/media/h10.037e94f1.jpg",
+    "static/media/h5.402b8889.jpg": "/osteos/static/media/h5.402b8889.jpg",
+    "static/media/h6.b7bbb12e.jpg": "/osteos/static/media/h6.b7bbb12e.jpg",
+    "static/media/motivation.54d4286f.jpg": "/osteos/static/media/motivation.54d4286f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93f889be.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.c01ab1f4.chunk.js",
+    "static/css/main.b72cf1ec.chunk.css",
+    "static/js/main.47df7f8c.chunk.js"
+  ]
+}
