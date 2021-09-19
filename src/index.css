@@ -1,0 +1,603 @@
+/* Navbar  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+.navbar {
+     border-radius: 0;
+     font-size: 15px;
+     background-color: white;
+}
+.navbar li {
+     font-size: 20px;
+     font-weight: 300;
+     justify-content: space-between;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+.menu_active.nav-link {
+     border-bottom: 3px solid black;
+}
+
+/* Footer*/
+.footer {
+     background-color: #414141;
+     width: 100%;
+     text-align: left;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 16px;
+     padding: 50px;
+     margin-top: 50px;
+}
+.locContent .address {
+     color: #ffffff;
+     font-weight: normal;
+     font-size: 18px;
+}
+
+.locContent .contact {
+     color: #ffffff;
+     font-weight: normal;
+     font-size: 18px;
+}
+
+.locContent i {
+     background-color: #33383b;
+     color: #ffffff;
+     font-size: 25px;
+     width: 38px;
+     height: 38px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 42px;
+     margin: 10px 15px;
+     vertical-align: middle;
+}
+.footer .about {
+     line-height: 20px;
+     color: #ffffff;
+     font-size: 13px;
+     font-weight: normal;
+     margin: 0;
+}
+
+.footer-main .about span {
+     display: block;
+     color: #ffffff;
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
+
+.footer-main .icons {
+     margin-top: 25px;
+     color: #ffffff;
+}
+
+.footer-main .icons a {
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     cursor: pointer;
+     background-color: #33383b;
+     border-radius: 2px;
+     font-size: 20px;
+     color: #ffffff;
+     text-align: center;
+     line-height: 35px;
+     margin-right: 3px;
+     margin-bottom: 5px;
+}
+
+.footer .footer-center {
+     width: 30%;
+}
+
+.footer .footer-center i {
+     background-color: #33383b;
+     color: #ffffff;
+     font-size: 25px;
+     width: 38px;
+     height: 38px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 42px;
+     margin: 10px 15px;
+     vertical-align: middle;
+}
+
+.footer .footer-center p {
+     display: inline-block;
+     color: #ffffff;
+     vertical-align: middle;
+     margin: 0;
+}
+
+.footer .footer-center p span {
+     display: block;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 2;
+}
+
+.footer .footer-center p a {
+     color: #0099ff;
+     text-decoration: none;
+}
+
+.footer h2 {
+     color: #ffffff;
+     font-size: 36px;
+     font-weight: normal;
+     margin: 0;
+}
+
+.footer h2 span {
+     color: #0099ff;
+}
+
+.footer .menu {
+     color: #ffffff;
+     margin: 20px 0 12px;
+}
+
+.footer .menu a {
+     display: inline-block;
+     line-height: 1.8;
+     text-decoration: none;
+     color: inherit;
+     margin-right: 10px;
+}
+
+.footer .menu a:hover {
+     color: #0099ff;
+}
+
+.footer .name {
+     color: white;
+     font-size: 14px;
+     font-weight: normal;
+     margin: 0;
+}
+
+.locationMarker .locContent {
+     display: flex;
+     flex-direction: initial;
+}
+
+.locationMarker .locContent p {
+     margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+     .footer {
+          font-size: 14px;
+     }
+     .footer .footer-left,
+     .footer .footer-center,
+     .footer .footer-right {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+     }
+     .footer .footer-center i {
+          margin-left: 0;
+     }
+}
+
+/* Carousel Home*/
+
+.block {
+     margin-top: 100px;
+     height: 400px;
+     width: 90%;
+}
+
+.home_img {
+     margin-top: 10px;
+     height: 500px;
+     width: 100%;
+}
+
+.carousel-caption {
+     height: 100%;
+     width: 100%;
+}
+
+.carousel-caption h3 {
+     font-size: 32px;
+     color: black;
+     font-weight: 1000;
+     position: absolute;
+     top: 30%;
+     left: 1%;
+}
+
+/* Contact */
+.contact-div {
+     width: 100%;
+}
+
+.contact-div p {
+     text-align: center;
+}
+
+.contact-div h2 {
+     text-align: center;
+     margin-top: -20px;
+}
+
+/* Consulting */
+
+@media (max-width: 991px) {
+     .navbar-brand {
+          font-size: 1.5rem !important;
+     }
+
+     .menu_active {
+          font-weight: bold;
+          border-bottom: none;
+     }
+}
+
+#header .brand-name {
+     color: #3498db;
+}
+
+#header {
+     width: 100%;
+     height: 80vh;
+     margin-top: 70px;
+}
+
+#header h1 {
+     margin: 0 0 10px 0;
+     font-size: 48px;
+     font-weight: 700;
+     color: black;
+}
+
+#header h2 {
+     color: #484848;
+     font-size: 24px;
+}
+
+#header .btn-get-started {
+     font-weight: 500;
+     font-size: 16px;
+     letter-spacing: 1px;
+     display: inline-block;
+     padding: 10px 30px;
+     border-radius: 50px;
+     transition: 0.5s;
+     color: #3498db;
+     border: 2px solid #3498db;
+     text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+     background: #3498db;
+     color: #fff;
+}
+
+.header-img {
+     text-align: right;
+}
+
+#header .animated {
+     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+
+@keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+
+#header2 .animated {
+     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+
+@keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+
+/* Responsive code */
+
+@media (max-width: 991px) {
+     #header {
+          height: 80vh;
+          text-align: center;
+     }
+
+     #header .header-img {
+          text-align: center;
+     }
+
+     #header .header-img img {
+          width: 60%;
+     }
+}
+
+@media (max-width: 768px) {
+     #header {
+          margin-top: 20px;
+     }
+     #header h1 {
+          font-size: 28px;
+     }
+     #header h2 {
+          font-size: 18px;
+          margin-bottom: 30px;
+     }
+     #header .header-img img {
+          width: 70%;
+     }
+}
+
+/* Card */
+
+.card:hover {
+     box-shadow: 5px 10px 20px 1px rgba(235, 226, 226, 0.273) !important;
+     transition: all 0.7s linear;
+}
+
+.card-body {
+     padding: 2rem 0 !important;
+}
+
+.product-card-title {
+     margin-bottom: 1.5rem;
+}
+
+.product-card-title {
+     font-size: 21px;
+}
+
+.card-text p {
+     padding: 0.3rem 1rem;
+     font-size: 1rem;
+     color: black;
+}
+.overflow {
+     overflow: hidden;
+}
+
+.card-img-top {
+     transform: scale(1);
+     transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+     transform: scale(1.8);
+}
+
+/* Dr card */
+.dr-details {
+     font-size: 19px;
+}
+
+/* Team Card*/
+
+/**********************************/
+/********** Common CSS ************/
+/**********************************/
+*,
+*::before,
+*::after {
+     box-sizing: border-box;
+}
+
+.container {
+     position: relative;
+     width: 100%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.title {
+     position: relative;
+     color: #353535;
+     font-size: 25px;
+     line-height: 35px;
+     text-align: center;
+     margin: 30px auto;
+}
+
+h1.title a {
+     font-size: 22px;
+}
+
+/**********************************/
+/************ Team CSS ************/
+/**********************************/
+.container-team {
+     display: table-row-group;
+}
+.team {
+     position: relative;
+     margin: 0 auto;
+     width: 100%;
+     text-align: center;
+     max-width: 300px;
+     margin-bottom: 30px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team .team-img {
+     position: relative;
+     font-size: 0;
+     color: #353535;
+}
+
+.team .team-img img {
+     width: 100%;
+     height: auto;
+}
+
+.team .team-content {
+     padding: 20px;
+}
+
+.team .team-content h2 {
+     margin: 0 0 5px 0;
+     color: #353535;
+     font-size: 25px;
+     font-weight: 600;
+     letter-spacing: 2px;
+}
+
+.team .team-content h3 {
+     margin: 0 0 15px 0;
+     color: #353535;
+     font-size: 14px;
+     font-weight: 300;
+}
+
+.team .team-content p {
+     margin: 0 0 15px 0;
+     color: #353535;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+}
+
+@media only screen and (max-width: 576px) {
+     .home_img {
+          height: 350px;
+     }
+     .lead {
+          margin: 10px;
+     }
+     .carousel-caption h3 {
+          font-size: 24px;
+          top: 30%;
+          left: 50%;
+          transform: translate(-75%, 0px);
+     }
+}
+
+/* products */
+.p-img .animated {
+     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+/* downloads */
+.flyer img {
+     height: fit-content;
+}
+.flyer .animated {
+     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.flex-container {
+     display: flex;
+}
+@media only screen and (max-width: 576px) {
+     .flyer img {
+          height: 350px;
+     }
+     /* .lead {
+          margin: 10px;
+     }
+       */
+}
+
+@-webkit-keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+
+@keyframes up-down {
+     0% {
+          transform: translateY(10px);
+     }
+     100% {
+          transform: translateY(-10px);
+     }
+}
+/* products */
+.product-text {
+     font-size: 18px;
+     letter-spacing: 0.5px;
+     line-height: 26px;
+}
+
+/* Youtube embed */
+.video-responsive {
+     overflow: hidden;
+     padding-bottom: 56.25%;
+     position: relative;
+     height: 0;
+}
+
+.video-responsive iframe {
+     left: 0;
+     top: 0;
+     height: 25%;
+     width: 25%;
+     position: absolute;
+}
+
+/* flyer */
+/* .flyer h1 {
+     padding-left: 110px;
+} */
+.row .flyer {
+     padding-top: 26px;
+}
+
+/* Consulting Login */
+
+ .login {
+  min-height: 100vh;
+}
+.img{
+     height: 500px;
+    margin-left: 140px;
+    margin-top: 120px;
+}
+  
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
